@@ -1,0 +1,196 @@
+body{
+     padding    : 0;
+     margin     : 0;
+     font-family: Helvetica;
+}
+/*=============HEADER==========================*/
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   :100%;
+      height  :80px;
+      background-image  : url('PineCityMall/background.jpg');
+      background-repeat:repeat-x;
+}
+
+#header img{
+      display: flex;
+      margin : auto;
+      height : 70%;
+      padding-top: 15px; 
+}
+/*=============TOP TABS==========================*/
+#tabs-top{
+      position: fixed;
+      top     : 80px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: darkblue;
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width: 25%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;  
+      
+}
+/*=============BOTTOM TABS==========================*/
+#tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: darkblue;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 33%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 10px;
+}
+/*=============MAIN MENU shops page==========================*/    
+#main-home{
+       margin-top: 120px;
+}
+
+
+
+/*=============Main store pages===================*/
+#main{ 
+        margin: 119px;
+    background: url('PineCityMall/Map_blur.jpg');
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+    
+}
+/*=============White box BG===================*/
+a.info-box{
+      text-decoration : none;
+      background      : rgba(255 ,225, 255, .5);
+      width           : 90%;
+      height          : 90px;
+      display         : block;
+      margin          : center;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+
+/*=============Text in the box===================*/
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : right;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 20px;
+      height     40px; 
+}
+/*=============Info box full===================*/
+
+#info-box-full{
+      background-color : rgba(255, 255, 255, .8) ;
+      width   : 90%;
+      display :block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+}
+
+
+
+#info-box-full img{
+      width : 25%;
+}
+
+
+
+#info-box-full h3{
+      text-align : center;
+}
+
+/*=============Weather===================*/
+
+img.info-box-weather-icon{
+     height : 30xp;
+     width  : 30px !important;
+     margin : 10px;
+     float  :left; 
+}
+
+h1.info-box-weather-icon{
+     font-size  : 65px;
+     font-weight: 200;
+     padding    : 0;
+     margin     : 0;
+}
+
+table {
+    width: 100%;        
+}
+td{
+    border-top: 1PX solid #131313;
+}
+/*=============Feed back page===================*/
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      background-color: blue;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
